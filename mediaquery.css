@@ -1,0 +1,124 @@
+@media only screen and (min-width: 768px) {
+    body {
+        color: rgb(107, 102, 102);
+    }
+
+    .acc-number_two {
+        display: flex;
+        justify-content: center;
+    }
+
+    .see-more {
+        text-align: center;
+        padding: 1rem 2rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        border-radius: 5px;
+    }
+    
+    .see-more .arrow {
+        transition: all 250ms;
+    }
+    
+    .see-more:hover .arrow {
+        margin-left: 2rem;
+    }
+
+    .clothes-wrapper_second {
+        padding: 2rem;
+        gap: 1rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:1000px) {
+
+    .forall {
+        display: flex;
+    }
+
+    .acc {
+        flex-basis: 80%;
+    }
+
+    .acc-wrapper {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .style {
+        flex-basis: 20%;
+        border-right: lightgray solid 1px;
+    }
+
+    .clothes-allwrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    .last {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tv {
+        flex-basis: 50%;
+    }
+
+    .bigT {
+        flex-shrink: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text {
+        padding-top: 15rem;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:1200px) {
+    .forall {
+        display: flex;
+    }
+
+    .acc {
+        flex-basis: 80%;
+    }
+
+    .style {
+        flex-basis: 20%;
+        border-right: lightgray solid 1px;
+    }
+
+    .see-more {
+        display: none;
+    }
+
+    .acc-number_three {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4rem;
+        padding: 3rem;
+    }
+
+}

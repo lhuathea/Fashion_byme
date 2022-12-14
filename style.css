@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+}
+
+.logo:hover {
+    border-radius: 50px;
+    background-color: black;
+}
+
+.menu img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    padding: 1rem;
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: none;
+}
+
+nav ul li a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidenav {
+    width: 100%;
+    height: 300px;
+    z-index: 999;
+    position: fixed;
+    right: 0;
+    top: -500px;
+    background-color: rgb(0, 0, 0, 0.5);
+    transition: all 1s;
+}
+  
+div:target {
+    top: 0;
+}
+  
+.sidenav ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.5rem;
+}
+  
+.sidenav ul li a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
+  
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+  
+.intro h1 {
+    font-size: 2rem;
+}
+  
+.intro {
+    text-align: right;
+    padding: 1rem;
+}
+
+.intro 
+  
+.frame img {
+    height: 750px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.section-title {
+    font-size: 2.4rem;
+    padding: 5rem;
+    text-align: center;
+}
+
+.style-wrapper {
+    padding: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.style-card{
+    height: 300px;
+    width: 400px;
+    border: rgb(233, 231, 231) solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-img {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.style-img img {
+    transition: 100ms;
+}
+
+.style-img:hover img {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 7px lightgray;
+}
+
+.pic1, .pic2, .pic3 {
+    height: 150px;
+    width: 120px;
+    padding: 1px;
+}
+
+.style-info {
+    padding: 1rem;
+}
+
+.style-info h1 {
+    font-size: 45px;
+}
+
+.clothes-wrapper {
+    padding: 2rem;
+    gap: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clothes-wrapper_second {
+    display: none;
+}
+
+.clothes-card {
+    height: 1000px;
+    width: 100px;
+    border: lightgray solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 900ms;
+}
+
+.clothes-card:hover {
+    box-shadow: 0px 0px 7px black;
+}
+
+.clothes-img {
+    height: 1000px;
+    width: 150px;
+    background-image: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 23rem;
+    padding: 1rem;
+}
+
+.clothes-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.acc-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding: 3rem;
+}
+
+.acc-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 0px 1px lightgrey;
+
+    display: flex;
+    flex-direction: row;
+    transition: 200ms;
+}
+
+.acc-card:hover {
+    box-shadow: 0px 1px 2px 1px gray;
+    transform: scaleX(-1);
+}
+
+.acc-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.acc-img img {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text1 {
+    flex-basis: 50%;
+}
+
+.text2 {
+    text-align: end;
+}
+
+.text2:hover {
+    color: silver;
+}
+
+.acc-number_two {
+    display: none;
+}
+
+.acc-number_three {
+    display: none;
+}
+
+.tv {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.slide-show {
+    width: 400px;
+    height: 350px;
+    padding: 10rem;
+    border: rgb(112, 108, 108) solid 2px;
+    border-radius: 15px;
+    background-size: cover;
+    object-fit: cover;
+    animation: slide-show 20s linear infinite ;
+}
+
+@keyframes slide-show {
+    0% {
+        background-image: url(img/slide1.jpg);
+    }
+
+    10% {
+        background-image: url(img/slide2.jpg);
+    }
+
+    20% {
+        background-image: url(img/slide3.jpg);
+    }
+
+    30% {
+        background-image: url(img/slide4.jpg);
+    }
+
+    40% {
+        background-image: url(img/slide5.jpg);
+    }
+
+    50% {
+        background-image: url(img/slide6.jpg);
+    }
+
+    60% {
+        background-image: url(img/slide7.jpg);
+    }
+
+    70% {
+        background-image: url(img/slide8.jpg);
+    }
+
+    80% {
+        background-image: url(img/slide9.jpg);
+    }
+
+    90% {
+        background-image: url(img/slide10.jpg);
+    }
+
+    100% {
+        background-image: url(img/slide11.jpg);
+    }
+}
+
+.text {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
